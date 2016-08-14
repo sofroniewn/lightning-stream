@@ -1,0 +1,33 @@
+{
+  "name": "lightning-stream",
+  "version": "0.0.0",
+  "description": "Render a lighting vizualizations using a stream",
+  "main": "index.js",
+  "dependencies": {
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "budo": "^8.3.0",
+    "from2": "^2.2.0",
+    "lightning-line-streaming": "^0.0.8"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "budo example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofroniewn/lightning-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "lightning",
+    "visualization"
+  ],
+  "author": "Nicholas Sofroniew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sofroniewn/lightning-stream/issues"
+  },
+  "homepage": "https://github.com/sofroniewn/lightning-stream#readme"
+}
